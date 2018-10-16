@@ -18,7 +18,7 @@ class App extends Component {
         <header>
           <nav>
             <img
-              src="http://pngimg.com/uploads/apple_logo/apple_logo_PNG19670.png"
+              src="https://apple.com/ac/globalnav/4/en_US/images/globalnav/apple/image_large.svg"
               alt="apple logo"
             />
             <NavLink to="/Mac" activeClassName="activelink">

@@ -15,9 +15,13 @@
     }
     p {
       color: white;
+      cursor: pointer;
     }
     .p-ipad {
       color: black;
+    }
+    p:hover {
+      color: lightblue;
     }
   }
 }

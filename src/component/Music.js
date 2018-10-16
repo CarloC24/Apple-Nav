@@ -26,7 +26,12 @@ const Music = () => {
         <p className="p-ipad">HomePod</p>
       </div>
       <div className="logocontainer">
-        <img src={AirPods} alt="AirPods" />
+        <img
+          src={
+            "https://apple.com/v/music/h/images/overview/icons/airpods_icon_large.svg"
+          }
+          alt="AirPods"
+        />
         <p className="p-ipad">AirPods</p>
       </div>
       <div className="logocontainer">
