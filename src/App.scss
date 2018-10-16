@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: 50px;
+  opacity: 0.8;
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 1200px;
+    img[alt="apple logo"] {
+      height: 20px;
+      width: 20px;
+      padding-right: 20px;
+    }
+    img[alt="search"] {
+      height: 40px;
+      width: 40px;
+      padding-left: 10px;
+    }
+    img[alt="bag"] {
+      height: 40px;
+      width: 40px;
+      padding-left: 10px;
+    }
+    a {
+      font-size: 20px;
+      padding: 0px 20px;
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      color: gray;
+    }
+    .activelink {
+      color: grey;
+    }
+  }
+}
